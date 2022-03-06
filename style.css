@@ -10,11 +10,19 @@
     box-sizing: border-box;
 }
 
+.headingText{
+    display: inline;
+    padding-left: 500px;
+    padding-top: 30px;
+    color: white;
+}
+
 .bar-icon{
     font-size: 2.4rem;
     margin-left: 30px;
     margin-top: 10px;
     color: white;
+    float: left;
 }
 
 .sidebar{
@@ -23,6 +31,7 @@
     background-color: rgb(29, 12, 44);
     position: fixed;
     transition: 0.5s;
+    float: left;
 }
 
 .sidebarClose{
