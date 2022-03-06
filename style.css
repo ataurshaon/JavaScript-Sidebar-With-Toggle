@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: blueviolet;
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bar-icon{
+    font-size: 2.4rem;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+.sidebar{
+    width: 220px;
+    height: 750px;
+    background-color: rgb(29, 12, 44);
+    position: fixed;
+    transition: 0.5s;
+}
+
+.sidebarClose{
+    width: 0;
+    height: 750px;
+    background-color: rgb(29, 12, 44);
+    position: fixed;
+    transition: 0.5s;
+}
+
+.nav a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: none;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.nav a.open{
+    display: block;
+}
+
+.nav a i{
+    margin-right: 100px;
+}
+
+.nav{
+    text-align: center;
+}
